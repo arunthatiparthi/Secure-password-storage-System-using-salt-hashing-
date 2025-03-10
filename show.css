@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+h2 {
+    font-family: 'Arial', sans-serif;
+    color: #007bff; /* Set your desired text color */
+    font-size: 24px; /* Adjust the font size as needed */
+    text-align: center; /* Center the text horizontally */
+    margin-top: 70px; /* Adjust the top margin as needed */
+    margin-bottom: 50px;
+}
+
+
+
+.table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.table tr {
+    transition: background-color 0.3s;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.table tr:hover {
+    background-color: #d1e8ff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 4px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-pencil {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
